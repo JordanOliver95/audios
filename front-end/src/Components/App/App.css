@@ -1,12 +1,13 @@
-.App {
+.App, html {
     text-align: center;
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: calc(10px + 2vmin);
+    color: whitesmoke;
 }
 
 .App-headerContainer {
@@ -15,8 +16,15 @@
 }
 
 .App-header, .App-title, .App-subScript {
-    display: inline-block;
-    color: whitesmoke;
+}
+
+.App-subScript {
+    text-align: right;
+}
+
+.App-title {
+    margin-block-end: 0;
+    margin-block-start: 0;
 }
 
 .App-header .App-subScript {
@@ -25,10 +33,9 @@
 }
 
 .App-header, .App-title, .App-subScript {
-    width: 10%;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .App-container {
