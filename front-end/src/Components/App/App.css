@@ -1,6 +1,6 @@
 .App {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #282c34;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -9,10 +9,33 @@
     font-size: calc(10px + 2vmin);
 }
 
+.App-headerContainer {
+    display: flex;
+    width: 65vw;
+}
+
+.App-header, .App-title, .App-subScript {
+    display: inline-block;
+    color: whitesmoke;
+}
+
+.App-header .App-subScript {
+    flex-direction: column-reverse;
+    margin-bottom: 15px;
+}
+
+.App-header, .App-title, .App-subScript {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .App-container {
-    background-color: #282c34;
-    color: white;
-    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    height: 80vh;
+    border-radius: 10px;
 }
 
 .App-link {

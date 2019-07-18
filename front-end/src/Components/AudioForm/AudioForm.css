@@ -1,0 +1,10 @@
+.audioForm-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.audioForm-actionContainer {
+    margin-bottom: 15px;
+}
